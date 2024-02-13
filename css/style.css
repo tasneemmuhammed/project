@@ -1,0 +1,72 @@
+body{
+    font-family: 'Philosopher', sans-serif;
+    background-image: url(pexels-la-miko-3616764.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.item-caption{
+    background-color: #fff;
+    width: 80%;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    bottom: 30px;
+    left: 10%;
+    }
+    .item{
+        cursor: pointer;
+    }
+    
+    .ligthbox-container{
+        background-color: rgba(0, 0, 0,0.4);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .ligthbox-item{
+        width: 45%;
+        height: 500px;
+         background-color: white;
+        background-position: center center;
+        background-size: cover;
+    }
+    .ligthbox-item i{
+        font-size: 18px;
+        margin: 5px;
+        cursor: pointer;
+        font-weight: 300px;
+        color: white;
+    }
+   .container1{
+    text-align: center;
+   }
+   .decrease{
+    background: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px  blue;
+    font-size: x-large;
+   }
+   .rest{
+    background: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px blue;
+    font-size: x-large;
+   }
+   .increase{
+    background: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px blue;
+    font-size: x-large;
+   }
+   #value{
+    font-size: 70px;
+   }
